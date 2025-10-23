@@ -200,7 +200,7 @@ namespace ForgeLightToolkit.Editor
                         continue;
                     }
 
-                    var runtimeObject = new GameObject($"Object ({tileRuntimeObject.FileName})")
+                    var runtimeObject = new GameObject($"Object ({tileRuntimeObject.FileName} {tileRuntimeObject.ObjectId})")
                     {
                         transform =
                         {
